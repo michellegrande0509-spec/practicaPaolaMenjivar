@@ -1,8 +1,8 @@
 /* =========================
 IMPORTACIÓN DE FUENTES
 ========================= */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Special+Elite&display=swap');
- 
+@import 
+url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+DK+Uloopet+Guides&display=swap');
 /* =========================
 RESET BÁSICO
 ========================= */
@@ -170,14 +170,14 @@ GALERÍA
 .galeria {
  display: flex;
  flex-direction: column;
- gap: 10px;
+ gap: 30px;
  justify-content: center;
 }
  
 .contenedor-galeria {
  display: flex;
  flex-wrap: wrap;
- gap: 10px;
+ gap: 30px;
  justify-content: center;
 }
  
@@ -186,7 +186,7 @@ GALERÍA
  height: 250px;
  object-fit: cover;
  border-radius: 10px;
- transition: transform 0.3s;
+ transition: 
 }
  
 .galeria img:hover {
@@ -200,7 +200,7 @@ footer {
  text-align: center;
  padding: 20px;
  background-color: #000;
- color: white;
+ color: rgb(165, 99, 99);
  margin-top: 40px;
 }
  
